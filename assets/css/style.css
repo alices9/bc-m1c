@@ -8,11 +8,13 @@ body {
     background-color: #d9dcd6; 
 }
 
+/* color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* text size for p elements */
 p {
     font-size: 16px;
 }
@@ -29,11 +31,13 @@ p {
     font-size: 48px;
 }
 
+/* changes the color for the seo in header */
 .header h1 .seo {
     color: #d9dcd6;
     font-style: normal;
 }
 
+/* brings nav bar to the right side */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,15 +46,18 @@ p {
     font-size: 20px;
 }
 
+/* removes bullet points */
 .header nav ul {
     list-style-type: none;
 }
 
+/* makes list items appear in one line */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* main img properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,11 +67,13 @@ p {
     background-position: center;
 }
 
+/* puts img to the left of text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* puts img to the right of text */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -76,6 +85,7 @@ p {
     margin-left: 20px;
 }
 
+/* appears on the right of content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,6 +131,7 @@ p {
     font-size: 36px;
 }
 
+/* footer properties */
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +139,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
