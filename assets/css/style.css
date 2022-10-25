@@ -1,3 +1,11 @@
+/* sets global color variables */
+:root{
+    --white: #ffffff;
+    --lightGray: #d9dcd6;
+    --trebuchet: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --gill: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,7 +13,7 @@
 }
 
 body {
-    background-color: #d9dcd6; 
+    background-color: var(--lightGray); 
 }
 
 /* color for links */
@@ -19,11 +27,12 @@ p {
     font-size: 16px;
 }
 
+/* sets properties for main site header text */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--trebuchet);
     background-color: #2a607c;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .header h1 {
@@ -33,7 +42,7 @@ p {
 
 /* changes the color for the seo in header */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--lightGray);
     font-style: normal;
 }
 
@@ -42,7 +51,7 @@ p {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--gill);
     font-size: 20px;
 }
 
@@ -79,13 +88,14 @@ p {
     margin-left: 25px;
 }
 
+/* sets section width */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* appears on the right of content */
+/* sets section width and makes content appear on the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,39 +103,44 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--gill);
     background-color: #2589bd;
 }
 
+/* sets properties for side section */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
-
+/* sets properties for side headers */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets display property and size for images on the right column */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets properties for main section */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--gill);
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
+/* sets img properties for main section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* sets properties for main section headers*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -135,7 +150,7 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--trebuchet);
     text-align: center;
 }
 
